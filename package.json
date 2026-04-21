@@ -1,0 +1,21 @@
+{
+  "name": "iotdevicesmqttvshttp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start:http": "node http-server.js",
+    "start:mqtt": "node mqtt-logger.js",
+    "analyze": "node analyze.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "express": "^5.2.1",
+    "mqtt": "^5.15.1"
+  }
+}
